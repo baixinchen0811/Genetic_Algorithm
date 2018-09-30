@@ -70,5 +70,5 @@ for _ in range(N_GENERATIONS):
         child = crossover(parent, pop_copy)
         child = mutate(child)
         parent[:] = child       # parent is replaced by its child
-###
+##hhah
 plt.ioff(); plt.show()
