@@ -29,7 +29,7 @@ def select(pop, fitness):    # nature selection wrt pop's fitness
     idx = np.random.choice(np.arange(POP_SIZE), size=POP_SIZE, replace=True,
                            p=fitness/fitness.sum())
     return pop[idx]
-
+##
 
 def crossover(parent, pop):     # mating process (genes crossover)
     if np.random.rand() < CROSS_RATE:
