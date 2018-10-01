@@ -94,6 +94,6 @@ for generation in range(N_GENERATIONS):
     print('Gen:', generation, '| best fit: %.2f' % fitness[best_idx],)
 
     env.plotting(lx[best_idx], ly[best_idx], total_distance[best_idx])
-
+#
 plt.ioff()
 plt.show()
