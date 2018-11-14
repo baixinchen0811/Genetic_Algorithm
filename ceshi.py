@@ -3,6 +3,7 @@ class Solution:
     @param: chars: The letter array you should sort by Case
     @return: nothing
     """
+
 chars = 'hhJJHKNjk'
 x=sorted(chars,key=lambda c: c.isupper())
 print(x)
