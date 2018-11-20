@@ -8,6 +8,7 @@ class Node(object):
         self.rchild = rchild
 
 
+
 class Tree(object):
     """树类"""
     def __init__(self):
