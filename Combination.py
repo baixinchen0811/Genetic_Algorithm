@@ -37,8 +37,10 @@ def combinations_with_replacement(array,cSpace,index,m):
 
 
 if __name__ == '__main__':
-    array=list('abcd')#元素
+    # array=list('abcd','')#元素
+    array={[1,1],[2,2],[3,3]}
     m=3#所取元素个数
+
     cSpace=list(range(m))
     combinations(array=array,cSpace=cSpace,index=0,m=m)
     print('')
